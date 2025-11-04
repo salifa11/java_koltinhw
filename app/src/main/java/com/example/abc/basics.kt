@@ -1,5 +1,5 @@
 package com.example.abc
-
+// variables
 fun main() {
     // Immutable variable (cannot be changed)
     val name: String = "Alice"
