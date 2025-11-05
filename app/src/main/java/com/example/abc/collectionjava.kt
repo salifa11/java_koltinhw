@@ -35,3 +35,8 @@ fun main() {
     mutableAges["Z"] = 300
     println("Mutable Map: $mutableAges")
 }
+
+val a = listOf(1,2,3)
+val b = setOf(3,4,5)
+var c = mutableListOf(8,9,10)
+c.add(11)

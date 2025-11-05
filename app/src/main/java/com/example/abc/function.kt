@@ -1,15 +1,20 @@
 package com.example.abc
 
 fun main() {
-    // User-defined function
-    sayHello("Alice")  // calling our own function
-
-    // Standard library function
-    val text = "kotlin"
-    println(text.uppercase())  // converts text to uppercase
+    sayHello()
+    greet("Sita")
+    val result = add(10, 20)
+    println("Sum: $result")
 }
 
-// This is a user-defined function
-fun sayHello(name: String) {
+fun sayHello() {
+    println("Hello, world!")
+}
+
+fun greet(name: String) {
     println("Hello, $name!")
+}
+
+fun add(a: Int, b: Int): Int {
+    return a + b
 }
